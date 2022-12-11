@@ -10,9 +10,9 @@ Olga Kashkur
 * E-mail: 11111111@gmail.com
 ## _About me_
   I was a technologist at the company for 10 years. Want to change my profession and grow in Front End direction.
-
+ 
 ## _My skills_
-Here will be some information about my skills
+Here will be some information about my skills.
 
 ## _ My code_
 ```
@@ -32,3 +32,4 @@ Polish
 Russian
 English
 Belarusian
+
