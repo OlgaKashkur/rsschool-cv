@@ -1,13 +1,47 @@
 p {
     color: darkgreen;
+    margin: 20px 90px;
 }
 h1 {
     color: rgb(99, 165, 42);
 }
 h2 {
     color: firebrick;
+    margin: 20px 90px;
 }
 .menu{
     color: fuchsia; 
     font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 90px;
+}
+.cv {
+    margin: 0 auto;
+    width: 500px;  
+}
+body{
+    background-color: beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.code {
+        float: left;
+        margin: 10px auto;
+}
+button {
+        background-color: #d3fad5;
+        padding: 10px 24px;
+        border: 1px solid green;
+        cursor: pointer;
+}
+.border {
+    border: 1px crimson;
+}
+.foto{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    display: block;
+}
+.fotter{
+   text-align: center; 
 }
