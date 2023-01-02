@@ -1,0 +1,230 @@
+body{
+    width: 1440px;
+}
+header{
+    position: absolute;
+    width: 1440px;
+    height: 134px;
+    left: 0px;
+    top: 0px;
+    background: #EDF2EC;
+}
+ul.nav {
+    margin-top: 42px ;
+    margin-bottom: 42px;
+    margin-left: 879px;
+    padding-left: 0;
+    margin-right: 109px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul.nav li{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
+    color: #010201;
+}
+li{
+    list-style-type: none;
+}
+a:link{
+    text-decoration: none;
+    color: #010201;
+}
+#home{
+      color: #E06733;
+}
+.Vector2{
+    position: absolute;
+    width: 19px;
+    height: 20px;
+    left: 112px;
+    top: 52px;
+    border: 1px solid #499A18;
+}
+.Vector1{
+    position: absolute;
+    width: 9.92px;
+    height: 17.28px;
+    left: 111px;
+    top: 54.66px;
+    border: 1px solid #499A18;
+}
+.plants{
+    position: absolute;
+    width: 58.13px;
+    height: 17px;
+    left: 132.05px;
+    top: 56.04px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+.welcome{
+    position: absolute;
+    width: 1440px;
+    height: 532px;
+    left: 0px;
+    top: 134px;
+    background: #EDF2EC;
+}
+.text1 {
+    position: absolute;
+    width: 549px;
+    height: 101px;
+    left: 782px;
+    top: 98px;
+    white-space: nowrap;
+}
+.text1 h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #717171;
+}
+.text1 h1 span{
+    color: #499A18;
+}
+.text2{
+    white-space: nowrap;
+    position: absolute;
+    width: 525.44px;
+    height: 105px;
+    left: 782px;
+    top: 241px;
+}
+.text2 p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #636060;
+}
+.leafs{
+    position: absolute;
+    width: 448.8px;
+    height: 407.36px;
+    left: 109px;
+    top: 62px;
+}
+.learn {
+    box-sizing: border-box;
+    position: absolute;
+    width: 158px;
+    height: 44px;
+    left: 782px;
+    top: 394px;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+   }
+.about{
+    position: absolute;
+    width: 1440px;
+    height: 666px;
+    left: 0px;
+    top: 666px;
+    background: #FFFFFF;
+}
+.text3{
+    position: absolute;
+    width: 463px;
+    height: 102px;
+    left: 109px;
+    top: 161px;
+}
+.text3 h1{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #E06733;
+}
+.text3 h1 span{
+    color: #499A18;  
+}
+.text4{
+    white-space: nowrap;
+    position: absolute;
+    width: 605px;
+    height: 208px;
+    left: 109px;
+    top: 303px;
+}
+.text4 p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;  
+    white-space: nowrap;
+}
+.houseplant1 {
+    position: absolute;
+    width: 464px;
+    height: 479px;
+    left: 867px;
+    top: 93px;
+    background: url(houseplant.png);
+}
+.service1{
+    position: absolute;
+    width: 1440px;
+    height: 1300px;
+    left: 0px;
+    top: 1332px;
+    background: #EDF2EC;
+}
+.text5 {
+    position: absolute;
+    width: 306px;
+    height: 94px;
+    left: 109px;
+    top: 40px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+    white-space: nowrap;
+}
+ul.service2{
+    margin: 69px  324px 1181px 559px;
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+ul.service2 li{
+    height: 50px;
+    width: 161px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #E06733;
+    text-align: center;
+}
+
+
+
+
+
+
+
