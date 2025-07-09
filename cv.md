@@ -1,6 +1,6 @@
 # CV
 ## **Name and Surname**
-*Olga Kashkur*
+*Olga Kaszkur*
 ## **Contacts**
 * Skype: 11111111
 * Viber / Telegramm : +48511wewewe111111
@@ -30,4 +30,3 @@ I was a technologist at the company for 10 years. Want to change my profession a
 * Russian 
 * English 
 * Belarusian
-rgb(184, 241, 236)
