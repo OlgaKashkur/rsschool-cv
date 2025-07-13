@@ -1,8 +1,88 @@
- <!-- start -- >
-body {
+   /* start  */
+body{
     margin: 0;
-    background: #E0FFFF ;
+    background: #d4fefe ;
     font-family: Tahoma;
     line-height: 1.5;
     font-size: 20px;
 }
+.card{
+    width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 1px 25px #9f8181;
+    border-radius: 10px;
+}
+.card_foto {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.card_title {
+    font-size: 20px;
+    text-align: center;
+    color: #26c356;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+div {
+    display: block;
+}
+p {
+    font-size: 14px;
+    text-indent: 30px;
+} 
+li a {
+    text-decoration: none;
+    color: rgb(10, 128, 79);
+}
+li a:hover {
+    color: rgb(195, 0, 255);
+  }
+ul.hr {
+    margin: 0;
+    padding: 50; /* Обнуляем значение отступов и полей */
+    width: 600px;
+    justify-content:space-between;
+    display: flex;
+ }
+ul.hr li {
+    display: inline-block; /* Строчно-блочный элемент */
+    border: 1px solid #000; /* Рамка вокруг текста */
+    padding: 3px; /* Поля вокруг текста */
+    width: 100px;
+    text-align: center;
+ }
+ul {
+    list-style: none;
+    font-size: 14px;
+}
+code{
+    font-size: 14px;
+}
+.myContact {
+    justify-content:space-between;
+    display: flex;
+    width: 600px;
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+.myContact div a{
+    text-decoration: none;
+    font-size: 16 px;
+    color: rgb(10, 128, 79);
+}
+.time p {
+    width: 660px;
+    text-align: right;
+   }

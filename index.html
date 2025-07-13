@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="CV">
     <meta name="keywords" content="CV, резюме, JS, HTML, CSS">
@@ -9,5 +9,75 @@
     <title>CV</title>
 </head>
 <body>
+      <div class="card">
+        <header>
+            <h1 class="card_title">CV</h1>
+            <img class="card_foto" src="jez.png"  alt="Olga Kaszkur">
+            <h2 class="card_title">Olga Kaszkur</h2>
+            <nav>
+                <ul class="hr">
+                    <li><a href="#About_me">About me</a></li>
+                    <li><a href="#My_skills">My skills</a></li>
+                    <li><a href="#My_code">My code</a></li>
+                    <li><a href="#Languages">Languages</a></li>
+                    <li><a href="#Contacts">Contacts</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="About_me">
+                <h2 class="card_title">About me</h2>
+                <p>I was a technologist at the company for 10 years. Want to change my profession and grow in Front End direction.</p>
+            </div>
+            <div id="My_skills">
+                <h2 class="card_title">My skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Git/GitHub</li>
+                    <li>JS</li>
+                </ul>
+            </div>
+            <div id="My_code">
+                <h2 class="card_title">My code</h2>
+                <code>
+                    obj = [{state: 'Maine', capital: 'Augusta'}, {state: '11111', capital: '2222'}];
+                    arrResult = [];
+                    let i = 0;
+                     for (const key in obj) {
+                    if (Object.hasOwnProperty.call(obj, key)) {
+                    element = obj[key];
+                     }
+                    arrResult[i] = "The capital of " + Object.values(element)[0] + " is " + Object.values(element)[1];
+                    i++;
+                    }
+                </code>
+            </div>
+            <div id="Languages">
+                <h2 class="card_title">Languages</h2>
+                <ul>
+                    <li>Polish</li>
+                    <li>Russian</li>
+                    <li>English</li>
+                    <li>Belarusian</li>
+                </ul>
+            </div>
+        </main>
+        <footer>
+            <div id="Contacts">
+                <h2 class="card_title">My Contacts</h2>
+                <div class="myContact">
+                    <div><a href="callto:olga">Skype</a></div>
+                    <div><a href="tel:+1555-2368">Telephone</a></div>
+                    <div><a href="mailto:olga.@gmail.com">Email</a></div>
+                    <div><a href="https://github.com/OlgaKashkur">GitHub</a></div>
+                </div>
+            </div>
+            <div class="time">
+                <p>Copyright ©<time datetime="2023-07-10">2025</time></p>
+                <p><a href="https://rs.school/courses/javascript-preschool-ru"><img src="rs_school_js.svg"  alt="rs" width="50" height="50"></a></p>
+            </div>
+        </footer>
+       </div>
 </body>
 </html>
